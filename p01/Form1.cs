@@ -17,5 +17,19 @@ namespace p01
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double x = double.Parse(textBox1.Text);
+            double y = double.Parse(textBox2.Text);
+            label1.Text = (x + y).ToString();
+            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            double x = double.Parse(textBox1.Text);
+            double y = double.Parse(textBox2.Text);
+            label2.Text = (x - y).ToString();
+        }
     }
 }
