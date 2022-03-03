@@ -33,5 +33,10 @@ namespace p01
             
             label2.Text = (x - y).ToString();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Zbztek po 10/7 je " +AritOp.Zbytek(10, 7));
+        }
     }
 }
