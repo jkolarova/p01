@@ -21,6 +21,7 @@ namespace p01
         {
             double x = double.Parse(textBox1.Text);
             double y = double.Parse(textBox2.Text);
+            
             label1.Text = (x + y).ToString();
             
         }
@@ -29,6 +30,7 @@ namespace p01
         {
             double x = double.Parse(textBox1.Text);
             double y = double.Parse(textBox2.Text);
+            
             label2.Text = (x - y).ToString();
         }
     }
