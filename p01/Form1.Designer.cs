@@ -97,6 +97,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 23);
             this.textBox3.TabIndex = 5;
+            this.textBox3.Text = "1000";
             // 
             // Form1
             // 
